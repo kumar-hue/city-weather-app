@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherApplication</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link rel="stylesheet" href="./WeatherApplication.css">
+    <script src="./WeatherApplication.js" defer></script>
+</head>
+<body>
+    <div id="weather_report_container">
+       <div id="city_name_input_box_container">
+            <input type="text" name="SearchInput" id="city_name_input_box" placeholder="Search City">
+            <span id="search_icon_container"><i id="search_icon"   class="fa-solid fa-magnifying-glass"></i></span>
+       </div>
+       <div id="location_container">
+            <i id="location_icon" class="fa-solid fa-location-dot"></i>
+            <span id="location_name"></span>
+       </div>
+       <div id="weather_status_container">
+           <span id="weather_image_container">
+                <img id="weather_image" src="" alt="Weather_image">
+           </span>
+           <h1 id="weather_name"></h1>
+           <h1 id="temperature"><span id="temperature"><span id="temperature_value">0</span><sup>o</sup>C</span></h1>
+       </div>
+       <div id="humidity_wind_status_container">
+            <div id="humidity_container" class="humidity_wind_status_containers">
+                <i id="humidity_logo" class="fa-solid fa-droplet"></i>
+                <span>Humidity</span>
+                <span id="humidity_value"></span>
+            </div>
+            <div id="wind_container" class="humidity_wind_status_containers">
+                 <i id="wind_logo" class="fa-solid fa-wind"></i>
+                <span>WindStatus</span  >
+                <span id="wind_value"></span>
+            </div>
+       </div>
+    </div>
+</body>
+</html>
