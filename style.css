@@ -10,9 +10,9 @@
 }
 body{
     height: 100vh;
-    background-image: url(../../assests/images/spring.jpg);
+    background-image: url(https://media.istockphoto.com/id/531889697/photo/weather-forecast-concept.jpg?s=1024x1024&w=is&k=20&c=NoySY959DXPGMe1Nw-luCLNcthomuA_EVFWTOXTNsiM=);
     background-size: 100% 100% ;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(3px);
     display: flex;
     justify-content: center;
     align-items: center;
