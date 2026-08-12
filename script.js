@@ -20,26 +20,26 @@ searchIcon.addEventListener("click",async ()=>{
     let weatherImage=document.getElementById("weather_image");
     console.log(weatherID);
     if(weatherID>=200 && weatherID<=232){
-        weatherImage.src="../../assests/images/WeatherThunder.png";
+        weatherImage.src="./assests/images/WeatherThunder.png";
     } 
     else if(weatherID>=300 && weatherID<=321){ 
-        weatherImage.src="../../assests/images/WeatherDizzle.png";
+        weatherImage.src="./assests/images/WeatherDizzle.png";
     }
     else if(weatherID>=500 && weatherID<=532){ 
-        weatherImage.src="../../assests/images/WeatherRain.png";
+        weatherImage.src="./assests/images/WeatherRain.png";
     }
     else if(weatherID>=600 && weatherID<=622){
-        weatherImage.src="../../assests/images/WeatherSnow.png";
+        weatherImage.src="./assests/images/WeatherSnow.png";
     }
     else if(weatherID>=701 && weatherID<=781)
     {
-        weatherImage.src="../../assests/images/Weather.png";
+        weatherImage.src="./assests/images/Weather.png";
     }
     else if(weatherID==800){
-        weatherImage.src="../../assests/images/WeatherClearSky.png";
+        weatherImage.src="./assests/images/WeatherClearSky.png";
     }
     else if(weatherID>=801 && weatherID<=804){    
-        weatherImage.src="../../assests/images/WeatherBrokenClouds.png";
+        weatherImage.src="./assests/images/WeatherBrokenClouds.png";
     }
     cityName.value="";
 }); 
