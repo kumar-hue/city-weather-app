@@ -6,7 +6,7 @@
 }
 @font-face {
     font-family: ProductSans;
-    src: url(../../assests/fonts/ProductSansRegular.ttf);
+    src: url(./assests/fonts/ProductSansRegular.ttf);
 }
 body{
     height: 100vh;
