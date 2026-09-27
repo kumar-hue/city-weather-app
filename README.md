@@ -1,5 +1,4 @@
 # city-weather-app
-# City Weather App
 
 A simple web-based weather application that allows users to search for weather information by city name using the OpenWeatherMap API.
 
